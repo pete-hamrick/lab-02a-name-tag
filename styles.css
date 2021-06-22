@@ -28,7 +28,7 @@ h1 {
 }
 
 .middle {
-    font-family: cursive;
+    font-family: 'Cedarville Cursive', cursive;
     text-align: center;
     display: flex;
     flex-direction: column;
