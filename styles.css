@@ -1,4 +1,4 @@
-main {
+.name-tag {
     height: 300px;
     width: 400px;
     display: grid;
@@ -40,4 +40,49 @@ h1 {
 .bottom {
     background-color: red;
     border-radius: 0px 0px 20px 20px;
+}
+
+#name-submit {
+    margin: 10px;
+}
+
+#pink-button {
+    margin: 10px;
+    background-color: pink;
+}
+
+#lightgreen-button {
+    margin: 10px;
+    background-color: lightgreen;
+}
+
+#lightblue-button {
+    margin: 10px;
+    background-color: lightblue;
+}
+
+.color-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+}
+
+/* .text-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+} */
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 10px;
+    height: 100px;
+}
+
+.text-input button {
+    width: 150px;
 }
